@@ -4,6 +4,6 @@
 
 #### Email: jakelawler2005@gmail.com
 
-#### Image:
+#### Image: <img src=image.jpg width=150>
 
-#### Avatar:
+#### Avatar: <img src=avatar.jpg width=150>
