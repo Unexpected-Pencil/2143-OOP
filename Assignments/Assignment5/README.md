@@ -6,4 +6,4 @@
 
 |  #  | File Link                            | File Description                              |
 | :-: | -------------------------------------- | ---------------------------------------------------- |
-|  1  | [Screenshots](./Screenshots.docx) | File containing screenshots that demonstrate that wsl is running properly on my system |
+|  1  | [Screenshots](./Screenshots.md) | File containing screenshots that demonstrate that wsl is running properly on my system |
