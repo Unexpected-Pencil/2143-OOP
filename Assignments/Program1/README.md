@@ -6,5 +6,5 @@
 
 |  #  | File Link                            | File Description                              |
 | :-: | -------------------------------------- | ---------------------------------------------------- |
-|  1  | [Main](./main.cpp) | Main |
-|  2  | [Data](./data.txt) | Input file that contains fractions and arithmetic operations |
+|  1  | [Main](./main.cpp) | Cpp File with the main function and the Fraction class |
+
