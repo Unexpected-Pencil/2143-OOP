@@ -1,4 +1,4 @@
-## Program 2A
+## Program 2B
 
 ### Jacob Lawler
 
