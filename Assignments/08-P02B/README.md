@@ -14,7 +14,7 @@
 
 * Data: name, score, dice_set, player_stats
 * Actions: roll_dice(), get_score(), update_score()
-* Relationships: Each player has a set of dice and participates in the game.
+* Relationships: Each player has a set of dice and is a participant in the game.
 
 #### Game Class:
 
@@ -27,3 +27,20 @@
 * Data: board, knucklebones_specific_rules
 * Actions: start_round(), end_round(), calculate_winner()
 * Relationships: Inherits from Game, as Knucklebones is a game with specific rules and conditions.
+
+#### Feature List:
+* chat
+* coins
+* first name
+* high score
+* last name
+* leaderboard
+* levels
+* messaging
+* player stats
+* score
+* streak
+* team stats
+* teams
+* userid
+* winner
