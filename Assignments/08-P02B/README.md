@@ -8,19 +8,19 @@
 
 * Data: sides, current_value
 * Actions: roll(), get_value()
-* Relationships: Dice will be used by the Player to roll during the game.
+* Relationships: Dice will be used by the Player to roll during the game. Composition is used in the relationship between these two classes.
 
 #### Player Class:
 
 * Data: name, score, dice_set, player_stats
 * Actions: roll_dice(), get_score(), update_score()
-* Relationships: Each player has a set of dice and is a participant in the game.
+* Relationships: Each player has a set of dice and is a participant in the game, so these relationships would use compostition.
 
 #### Game Class:
 
 * Data: players, rules, current_round
 * Actions: start_game(), end_game(), get_winner()
-* Relationships: The Game class controls the players and their actions.
+* Relationships: The Game class controls the players and their actions and should use composition. The Knucklebones class uses inheritance from the game class.
 
 #### Knucklebones Class:
 
@@ -29,18 +29,19 @@
 * Relationships: Inherits from Game, as Knucklebones is a game with specific rules and conditions.
 
 #### Feature List:
-* chat
-* coins
-* first name
-* high score
-* last name
-* leaderboard
-* levels
-* messaging
-* player stats
-* score
-* streak
-* team stats
-* teams
-* userid
-* winner
+* Chat - Wishful
+* Coins - Possible (unneccesary)
+* First Name - Possuble (unneccesary)
+* Last Name - Possible (unneccesary)
+* High Score - Neccesary
+* Leaderboard - Wishful
+* Levels - Possible
+* Messaging - Wishful
+* Player stats - Possible
+* Score - Neccesary
+* Streak - Possible
+* Teams - Wishful
+* Team stats - Wishful
+* Userid - Possible
+* Winner - Neccesary
+* Loser - Neccesary
