@@ -1,4 +1,4 @@
-## Program 08-P02A
+## Program 2A
 
 ### Jacob Lawler
 
