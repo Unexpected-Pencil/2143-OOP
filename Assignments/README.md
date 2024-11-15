@@ -11,4 +11,5 @@
 |  07-T01  | Test 1            | description 0          |
 |  08-P02A | [Program 2A](./08-P02A/README.md)          | [Ncurses test](./08-P02A/README.md)          |
 |  08-P02B | [Program 2B](./08-P02B/README.md)          | [Class Design](./08-P02B/README.md)          |
-|  08-P02C | Program 2C        | Knucklebones           |
+|  08-P02C | [Program 2C](./08-P02C/README.md)          | [Knucklebones](./08-PO2C/README.md)          |
+|  09-T02  | [Test 2]
