@@ -59,14 +59,17 @@
 >> Garbage collection is an automated process where the runtime environment identifies and reclaims memory occupied by objects that are no longer referenced by the program, essentially cleaning up unused object data to prevent memory leaks and optimize memory usage; it works by tracking object references and removing objects that have no active pointers pointing to them, allowing the memory to be reused for new objects. 
 >>
 >> A pointer is an object in programming languages that stores a memory address. Pointers are used to store the addresses of other variables or memory items. They are essential for dynamic memory allocation and are often used in parameter passing. 
-#### Method Overloading 
 #### Method
+> A method is a procedure or behavior associated with an object. Methods are similar to functions, subroutines, or algorithms, and can include programming components like for loops and while loops. Methods can manipulate the attributes of an object.
+#### Method Overloading 
+> Method overloading is a type of polymorphism, which is the ability of objects or methods to behave differently depending on how they are used. In method overloading, methods are differentiated by the number and type of parameters passed to them.
 #### Multiple Inheritance
+> Multiple inheritance is a feature in some object-oriented programming languages that allows a class or object to inherit from more than one parent class or object. This is different from single inheritance, where a class or object can only inherit from one parent class or object.
 #### Multithreading in OOP (time permitting)
+> Multithreading is a programming concept that allows a single process to run multiple threads simultaneously. In object-oriented programming (OOP), multithreading can be used to create shared safe objects.
 #### Objects 
 > An object is a specific instance of a class that contains real values instead of variables.
 #### Object Relationships (Association, Aggregation, Composition)
-#### Object-Oriented Design Principles
 #### Operator Overloading
 #### Overloading
 #### Polymorphism
@@ -75,4 +78,6 @@
 #### Templates
 #### Testing in OOP (Unit Testing, Test-Driven Development)
 #### UML Diagrams and Modeling
+> Unified Modeling Language (UML) is a general-purpose modeling language. The main aim of UML is to define a standard way to visualize the way a system has been designed. It is quite similar to blueprints used in other fields of engineering. UML is not a programming language, it is rather a visual language.
 #### Virtual
+> The virtual keyword is used to modify a method, property, indexer, or event declaration so that it can be overridden in a derived class.
