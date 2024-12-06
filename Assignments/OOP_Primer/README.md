@@ -48,8 +48,8 @@
 > The simple idea is to pass the data type as a parameter so that we don’t need to write the same code for different data types. For example, a software company may need to sort() for different data types. Rather than writing and maintaining multiple codes, we can write one sort() and pass the datatype as a parameter. 
 #### Inheritance
 > Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to inherit properties and behaviors from another class. It's a way to create a hierarchy of classes that share attributes and methods, and it's based on a hierarchical relationship between classes. 
-#### Member Variable
-> A member variable, also known as an instance variable or data member, is a variable that is declared within a class and is accessible by all methods of that class. Member variables are associated with a specific object and maintain their values for the lifetime of that object. 
+#### Instance Variable
+> A instance variable, also known as an member variable or data member, is a variable that is declared within a class and is accessible by all methods of that class. Member variables are associated with a specific object and maintain their values for the lifetime of that object. 
 #### Memory Management (Garbage Collection, Pointers)
 >The process of defining and handling data associated with an object within a class, including attributes (member variables) and the methods (member functions) that operate on that data, ensuring proper encapsulation and access control to manage the object's state and behavior effectively.
 >> Garbage collection is an automated process where the runtime environment identifies and reclaims memory occupied by objects that are no longer referenced by the program, essentially cleaning up unused object data to prevent memory leaks and optimize memory usage; it works by tracking object references and removing objects that have no active pointers pointing to them, allowing the memory to be reused for new objects. 
