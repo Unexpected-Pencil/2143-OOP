@@ -4,7 +4,7 @@
 - Date: 6 Dec 2024
 - Class: 2143 OOP
   
-
+###### This page only contains the definitions for the terms. Images and code snippets are included in the full wiki page.
 ## Definitions
 
 #### Abstract Classes and Interfaces
@@ -36,8 +36,6 @@
 > The core design principles of oop are Encapsulation, Inheritance, Polymorphism, and Abstraction.
 #### Diamond Problem
 > An ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
->
-> ![Diamond Problem Visual](https://upload.wikimedia.org/wikipedia/commons/8/8e/Diamond_inheritance.svg)
 #### Encapsulation 
 > Encapsulation is a fundamental concept in object-oriented programming (OOP) that involves bundling data with the methods that operate on it. It's used to hide the values of a structured data object within a class, preventing unauthorized access. 
 #### Exception Handling
