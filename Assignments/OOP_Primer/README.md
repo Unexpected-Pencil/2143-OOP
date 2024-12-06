@@ -8,7 +8,7 @@
 ## Definitions
 
 #### Abstract Classes and Interfaces
-> Abstract classes and interfaces are both used in object-oriented programming (OOP) to create maintainable code. They are both abstraction mechanisms that help separate components and define contracts for classes.
+> Abstract classes and interfaces are both used in object-oriented programming (OOP) to create maintainable code. They are both abstraction mechanisms that help separate components and define contracts for classes. 
 #### Abstraction 
 #### Access Modifiers (Public, Private, Protected)
 #### Attributes/Properties 
