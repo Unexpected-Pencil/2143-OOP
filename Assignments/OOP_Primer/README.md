@@ -37,7 +37,7 @@
 #### Diamond Problem
 > An ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
 >
-> ![Diamond Problem Visual](https://en.wikipedia.org/wiki/Multiple_inheritance#/media/File:Diamond_inheritance.svg)
+> ![Diamond Problem Visual](https://upload.wikimedia.org/wikipedia/commons/8/8e/Diamond_inheritance.svg)
 #### Encapsulation 
 > Encapsulation is a fundamental concept in object-oriented programming (OOP) that involves bundling data with the methods that operate on it. It's used to hide the values of a structured data object within a class, preventing unauthorized access. 
 #### Exception Handling
