@@ -32,8 +32,8 @@
 > A constructor is a function in object-oriented programming that prepares a new object for use. Constructors are automatically called when an object is created, and they assign values to the object's members.
 #### Destructors 
 > A destructor is a member function that is automatically called when an object is destroyed or goes out of scope. Destructors are used to deallocate memory and perform other cleanup tasks for a class object and its members.
-#### Design Patterns
-> The core design principles of oop are Encapsulation, Inheritance, Polymorphism, and Abstraction.
+#### Design Patterns (e.g., Singleton, Factory, Observer)
+> The 
 #### Diamond Problem
 > An ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
 #### Encapsulation 
@@ -48,8 +48,6 @@
 > The simple idea is to pass the data type as a parameter so that we don’t need to write the same code for different data types. For example, a software company may need to sort() for different data types. Rather than writing and maintaining multiple codes, we can write one sort() and pass the datatype as a parameter. 
 #### Inheritance
 > Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to inherit properties and behaviors from another class. It's a way to create a hierarchy of classes that share attributes and methods, and it's based on a hierarchical relationship between classes. 
-#### Instance Variable
-> An instance variable is a variable that is defined within a class, but each object of that class has its own copy of the variable.
 #### Member Variable
 > A member variable, also known as an instance variable or data member, is a variable that is declared within a class and is accessible by all methods of that class. Member variables are associated with a specific object and maintain their values for the lifetime of that object. 
 #### Memory Management (Garbage Collection, Pointers)
@@ -68,6 +66,8 @@
 #### Objects 
 > An object is a specific instance of a class that contains real values instead of variables.
 #### Object Relationships (Association, Aggregation, Composition)
+#### OOP Design Principles
+> The core design principles of OOP are encapsulation, inheritance, polymorphism, and abstraction.
 #### Operator Overloading
 #### Overloading
 #### Polymorphism
