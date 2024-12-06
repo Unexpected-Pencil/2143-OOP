@@ -43,6 +43,7 @@
 #### Exception Handling
 > Exceptions are runtime anomalies or abnormal conditions that a program encounters during its execution. The process of handling these exceptions is called exception handling. Using the exception handling mechanism, the control from one part of the program where the exception occurred can be transferred to another part of the code.
 #### File I/O in OOP 
+> In object-oriented programming (OOP), "File I/O" refers to the process of reading data from or writing data to a file on a computer using object-oriented techniques, where you typically create classes that encapsulate file operations like opening, reading, writing, and closing, allowing for a structured and reusable way to manage data interaction with files.
 #### Friend Keyword
 #### Generics and Templates
 #### Inheritance
