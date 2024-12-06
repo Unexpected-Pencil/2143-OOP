@@ -33,7 +33,12 @@
 #### Destructors 
 > A destructor is a member function that is automatically called when an object is destroyed or goes out of scope. Destructors are used to deallocate memory and perform other cleanup tasks for a class object and its members.
 #### Design Patterns (e.g., Singleton, Factory, Observer)
-> The 
+> Design patterns are like well-known recipes for common problems in software development. They're not step-by-step instructions, but more like guidelines to help you solve these problems in a flexible and efficient way. These patterns gather the wisdom of the software development community, making it easier for developers to work together and create software that's easy to maintain, adapt, and reuse.
+>> The Singleton Method Design Pattern ensures a class has only one instance and provides a global access point to it. It’s ideal for scenarios requiring centralized control, like managing database connections or configuration settings.
+>>
+>> The Factory Method pattern is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. It encapsulates the object creation logic, decoupling it from the client code that uses the objects.
+>>
+>> It is often used for implementing distributed event-handling systems in event-driven software. In such systems, the subject is usually named a "stream of events" or "stream source of events" while the observers are called "sinks of events." The stream nomenclature alludes to a physical setup in which the observers are physically separated and have no control over the emitted events from the subject/stream source. This pattern thus suits any process by which data arrives from some input that is not available to the CPU at startup, but instead may arrive at arbitrary or indeterminate times (HTTP requests, GPIO data, user input from peripherals and distributed databases, etc.).
 #### Diamond Problem
 > An ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
 #### Encapsulation 
