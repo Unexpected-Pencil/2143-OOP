@@ -45,11 +45,20 @@
 #### File I/O in OOP 
 > In object-oriented programming (OOP), "File I/O" refers to the process of reading data from or writing data to a file on a computer using object-oriented techniques, where you typically create classes that encapsulate file operations like opening, reading, writing, and closing, allowing for a structured and reusable way to manage data interaction with files.
 #### Friend Keyword
-#### Generics and Templates
+> In C++, the friend keyword is used to grant a function or another class access to the private and protected members of the class in which it is declared.
+#### Generics
+> The simple idea is to pass the data type as a parameter so that we don’t need to write the same code for different data types. For example, a software company may need to sort() for different data types. Rather than writing and maintaining multiple codes, we can write one sort() and pass the datatype as a parameter. 
 #### Inheritance
+> Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to inherit properties and behaviors from another class. It's a way to create a hierarchy of classes that share attributes and methods, and it's based on a hierarchical relationship between classes. 
 #### Instance Variable
+> An instance variable is a variable that is defined within a class, but each object of that class has its own copy of the variable.
 #### Member Variable
+> A member variable, also known as an instance variable or data member, is a variable that is declared within a class and is accessible by all methods of that class. Member variables are associated with a specific object and maintain their values for the lifetime of that object. 
 #### Memory Management (Garbage Collection, Pointers)
+>The process of defining and handling data associated with an object within a class, including attributes (member variables) and the methods (member functions) that operate on that data, ensuring proper encapsulation and access control to manage the object's state and behavior effectively.
+>> Garbage collection is an automated process where the runtime environment identifies and reclaims memory occupied by objects that are no longer referenced by the program, essentially cleaning up unused object data to prevent memory leaks and optimize memory usage; it works by tracking object references and removing objects that have no active pointers pointing to them, allowing the memory to be reused for new objects. 
+>>
+>> A pointer is an object in programming languages that stores a memory address. Pointers are used to store the addresses of other variables or memory items. They are essential for dynamic memory allocation and are often used in parameter passing. 
 #### Method Overloading 
 #### Method
 #### Multiple Inheritance
@@ -63,6 +72,7 @@
 #### Polymorphism
 #### SOLID Principles 
 #### Static (Methods and Variables)
+#### Templates
 #### Testing in OOP (Unit Testing, Test-Driven Development)
 #### UML Diagrams and Modeling
 #### Virtual
