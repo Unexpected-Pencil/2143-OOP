@@ -71,16 +71,42 @@
 #### Objects 
 > An object is a specific instance of a class that contains real values instead of variables.
 #### Object Relationships (Association, Aggregation, Composition)
+> Object relationships are a person's relationships with people, activities, or things that are sources of connection and gratification. In psychoanalysis, object relations theory is a popular model that focuses on how people's internalized childhood relationships influence their adult relationships.
+>> An association in object-oriented programming (OOP) is a general relationship between two or more objects where they are connected in some way, but they do not have a strong dependency on each other
+>> 
+>> An aggregation is a special type of association in which objects are assembled or configured together to create a more complex object. An aggregation describes a group of objects and how you interact with them.
+>> 
+>> Composition is a "part-of" relationship where the parts cannot exist without the whole. It's also known as a "has-a" relationship.
 #### OOP Design Principles
 > The core design principles of OOP are encapsulation, inheritance, polymorphism, and abstraction.
 #### Operator Overloading
+> C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. Operator overloading is a compile-time polymorphism. For example, we can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +. Other example classes where arithmetic operators may be overloaded are Complex Numbers, Fractional Numbers, Big integers, etc.
 #### Overloading
+> In C++, overloading refers to the ability to define multiple functions or operators with the same name, but with different parameters. The compiler then determines which function or operator to use based on the arguments provided in the function call.
 #### Polymorphism
+> Polymorphism is a concept in object-oriented programming that allows objects of a derived class to be treated as objects of a base class. This is often referred to as the third pillar of object-oriented programming. 
 #### SOLID Principles 
-#### Static (Methods and Variables)
+> SOLID is an acronym for five design principles that developers use to create object-oriented software:
+>> Single responsibility principle: A class should have only one reason to change.
+>> 
+>> Open-closed principle: Software entities should be open for extension but closed for modification.
+>> 
+>>Liskov substitution principle: Objects of subclasses should behave the same way as objects of their superclass. 
+>>
+>>Interface segregation principle: A principle for object-oriented design. 
+>>
+>>Dependency inversion principle: A principle for object-oriented design. 
+#### Static Methods 
+> A static method is a method that is associated with a class, rather than a specific instance of a class. This means that a static method can be called without creating an object of the class.
+#### Static Variables
+> A static variable is a variable in computer programming that is allocated for the entire duration of a program. Static variables are shared among all instances of a class, and are available to all methods.
 #### Templates
-#### Testing in OOP (Unit Testing, Test-Driven Development)
+> A template is a simple yet very powerful tool in C++. The simple idea is to pass the data type as a parameter so that we don’t need to write the same code for different data types. For example, a software company may need to sort() for different data types. Rather than writing and maintaining multiple codes, we can write one sort() and pass the datatype as a parameter. 
+#### Test-Driven Development
+> Test-driven development (TDD) is a software development technique that involves writing automated tests before writing production code. TDD is an iterative process that helps ensure code is thoroughly tested and reliable. 
 #### UML Diagrams and Modeling
 > Unified Modeling Language (UML) is a general-purpose modeling language. The main aim of UML is to define a standard way to visualize the way a system has been designed. It is quite similar to blueprints used in other fields of engineering. UML is not a programming language, it is rather a visual language.
+#### Unit Testing
+> Unit testing is a software development process that involves testing the smallest parts of an application to ensure they work as intended. It's a crucial part of software development and is considered a best practice.
 #### Virtual
 > The virtual keyword is used to modify a method, property, indexer, or event declaration so that it can be overridden in a derived class.
