@@ -11,5 +11,7 @@
 |  07-T01  | Test 1                                     | Basic Stuff                              |
 |  08-P02A | [Program 2A](./08-P02A/README.md)          | [Ncurses test](./08-P02A/README.md)      |
 |  08-P02B | [Program 2B](./08-P02B/README.md)          | [Class Design](./08-P02B/README.md)      |
-|  08-P02C | [Program 2C](./08-P02C/README.md)          | [Knucklebones](./08-PO2C/README.md)      |
+|  08-P02C | [Program 2C](./08-P02C/README.md)          | [Knucklebones Ncurses](./08-PO2C/README.md)      |
 |  09-T02  | [Test 2]                                   | Intermediate Stuff
+|  10-P03  | [Program 3](./10-P03/README.md)            | [Knucklebones SFML](./10-PO3/README.md)      |
+|  11-T03  | [Test 3]                                   | Final Exam
